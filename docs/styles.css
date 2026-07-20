@@ -182,6 +182,10 @@ h1 span {
   filter: drop-shadow(0 34px 70px rgba(0, 0, 0, 0.38));
 }
 
+.hero-visual-mobile {
+  display: none;
+}
+
 .features {
   display: grid;
   grid-template-columns: 1fr;
@@ -348,28 +352,7 @@ h1 span {
     padding: 28px 0 34px;
   }
 
-  .hero-content {
-    display: contents;
-  }
-
-  .hero-logo {
-    order: 1;
-  }
-
-  h1 {
-    order: 2;
-  }
-
-  .hero-copy {
-    order: 3;
-  }
-
-  .features {
-    order: 5;
-  }
-
   .hero-visual {
-    order: 4;
     margin: 0 auto;
     width: 100%;
     overflow: hidden;
@@ -382,13 +365,18 @@ h1 span {
     transform: translateX(0);
   }
 
+  .hero-visual-desktop {
+    display: none;
+  }
+
+  .hero-visual-mobile {
+    display: grid;
+    margin: 4px auto 18px;
+  }
+
   .features {
     grid-template-columns: 1fr;
     width: 100%;
-  }
-
-  .store-buttons {
-    order: 6;
   }
 
   .site-footer {
