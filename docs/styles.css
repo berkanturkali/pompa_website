@@ -348,7 +348,28 @@ h1 span {
     padding: 28px 0 34px;
   }
 
+  .hero-content {
+    display: contents;
+  }
+
+  .hero-logo {
+    order: 1;
+  }
+
+  h1 {
+    order: 2;
+  }
+
+  .hero-copy {
+    order: 3;
+  }
+
+  .features {
+    order: 5;
+  }
+
   .hero-visual {
+    order: 4;
     margin: 0 auto;
     width: 100%;
     overflow: hidden;
@@ -364,6 +385,10 @@ h1 span {
   .features {
     grid-template-columns: 1fr;
     width: 100%;
+  }
+
+  .store-buttons {
+    order: 6;
   }
 
   .site-footer {
